@@ -59,5 +59,14 @@ Endpoint: GET /api/customers/1/rentals
 
 Response: Returns the customer details along with a list of their active and past rentals.
 
+API Testing (cURL Examples)
+Get All Cars
+Bash
+curl -X GET http://localhost:8080/api/cars
+Create a Car
+Bash
+curl -X POST http://localhost:8080/api/cars \
+  -H "Content-Type: application/json" \
+  -d '{"brand":"Toyota","model":"Corolla","year":2023,"dailyRate":45.00}'
 Credentials
 No authentication credentials are required for local H2 database or API testing.
