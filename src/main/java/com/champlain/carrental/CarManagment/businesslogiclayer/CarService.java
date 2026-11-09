@@ -1,9 +1,10 @@
-package com.champlain.carrental.service;
+package com.champlain.carrental.CarManagment.businesslogiclayer;
 
-import com.champlain.carrental.dto.CarRequestDTO;
-import com.champlain.carrental.entity.Car;
+
+import com.champlain.carrental.CarManagment.datalayer.Car;
+import com.champlain.carrental.CarManagment.presentationlayer.CarRequestDTO;
 import com.champlain.carrental.exception.ResourceNotFoundException;
-import com.champlain.carrental.repository.CarRepository;
+import com.champlain.carrental.CarManagment.datalayer.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

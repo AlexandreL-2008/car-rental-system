@@ -1,6 +1,10 @@
-package com.champlain.carrental.dto;
+package com.champlain.carrental.RentaslManagment.presentationlayer;
 
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.FutureOrPresent;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 import java.time.LocalDate;
 
 public class RentalRequestDTO {

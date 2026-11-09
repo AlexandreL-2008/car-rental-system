@@ -1,13 +1,14 @@
-package com.champlain.carrental.service;
+package com.champlain.carrental.RentaslManagment.businesslogiclayer;
 
-import com.champlain.carrental.dto.RentalRequestDTO;
-import com.champlain.carrental.entity.Car;
-import com.champlain.carrental.entity.Customer;
-import com.champlain.carrental.entity.Rental;
+
+import com.champlain.carrental.CarManagment.datalayer.Car;
+import com.champlain.carrental.CustomerManagment.datalayer.Customer;
+import com.champlain.carrental.RentaslManagment.datalayer.Rental;
+import com.champlain.carrental.RentaslManagment.presentationlayer.RentalRequestDTO;
 import com.champlain.carrental.exception.ResourceNotFoundException;
-import com.champlain.carrental.repository.CarRepository;
-import com.champlain.carrental.repository.CustomerRepository;
-import com.champlain.carrental.repository.RentalRepository;
+import com.champlain.carrental.CarManagment.datalayer.CarRepository;
+import com.champlain.carrental.CustomerManagment.datalayer.CustomerRepository;
+import com.champlain.carrental.RentaslManagment.datalayer.RentalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

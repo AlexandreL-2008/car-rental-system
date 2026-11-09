@@ -1,9 +1,9 @@
-package com.champlain.carrental.service;
+package com.champlain.carrental.CustomerManagment.businesslogiclayer;
 
-import com.champlain.carrental.dto.CustomerRequestDTO;
-import com.champlain.carrental.entity.Customer;
+import com.champlain.carrental.CustomerManagment.datalayer.Customer;
+import com.champlain.carrental.CustomerManagment.presentationlayer.CustomerRequestDTO;
 import com.champlain.carrental.exception.ResourceNotFoundException;
-import com.champlain.carrental.repository.CustomerRepository;
+import com.champlain.carrental.CustomerManagment.datalayer.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

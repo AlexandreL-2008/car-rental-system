@@ -1,8 +1,7 @@
-package com.champlain.carrental.controller;
+package com.champlain.carrental.CarManagment.presentationlayer;
 
-import com.champlain.carrental.dto.CarRequestDTO;
-import com.champlain.carrental.entity.Car;
-import com.champlain.carrental.service.CarService;
+import com.champlain.carrental.CarManagment.datalayer.Car;
+import com.champlain.carrental.CarManagment.businesslogiclayer.CarService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

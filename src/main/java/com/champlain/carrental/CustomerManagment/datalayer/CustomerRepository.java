@@ -1,6 +1,5 @@
-package com.champlain.carrental.repository;
+package com.champlain.carrental.CustomerManagment.datalayer;
 
-import com.champlain.carrental.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

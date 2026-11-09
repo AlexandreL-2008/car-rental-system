@@ -1,6 +1,5 @@
-package com.champlain.carrental.repository;
+package com.champlain.carrental.CarManagment.datalayer;
 
-import com.champlain.carrental.entity.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

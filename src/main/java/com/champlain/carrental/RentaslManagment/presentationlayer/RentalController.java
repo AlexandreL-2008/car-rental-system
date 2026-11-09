@@ -1,8 +1,8 @@
-package com.champlain.carrental.controller;
+package com.champlain.carrental.RentaslManagment.presentationlayer;
 
-import com.champlain.carrental.dto.RentalRequestDTO;
-import com.champlain.carrental.entity.Rental;
-import com.champlain.carrental.service.RentalService;
+
+import com.champlain.carrental.RentaslManagment.datalayer.Rental;
+import com.champlain.carrental.RentaslManagment.businesslogiclayer.RentalService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

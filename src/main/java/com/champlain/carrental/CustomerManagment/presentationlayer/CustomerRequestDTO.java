@@ -1,4 +1,4 @@
-package com.champlain.carrental.dto;
+package com.champlain.carrental.CustomerManagment.presentationlayer;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,8 +1,8 @@
-package com.champlain.carrental.controller;
+package com.champlain.carrental.CustomerManagment.presentationlayer;
 
-import com.champlain.carrental.dto.CustomerRequestDTO;
-import com.champlain.carrental.entity.Customer;
-import com.champlain.carrental.service.CustomerService;
+
+import com.champlain.carrental.CustomerManagment.datalayer.Customer;
+import com.champlain.carrental.CustomerManagment.businesslogiclayer.CustomerService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

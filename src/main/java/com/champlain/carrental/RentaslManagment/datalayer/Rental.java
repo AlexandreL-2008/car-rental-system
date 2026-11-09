@@ -1,5 +1,7 @@
-package com.champlain.carrental.entity;
+package com.champlain.carrental.RentaslManagment.datalayer;
 
+import com.champlain.carrental.CarManagment.datalayer.Car;
+import com.champlain.carrental.CustomerManagment.datalayer.Customer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import java.time.LocalDate;

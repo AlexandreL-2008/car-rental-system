@@ -1,6 +1,9 @@
-package com.champlain.carrental.dto;
+package com.champlain.carrental.CarManagment.presentationlayer;
 
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
 
 public class CarRequestDTO {
     @NotBlank(message = "Make is required")
